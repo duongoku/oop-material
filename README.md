@@ -2,6 +2,16 @@
 
 Đây là repo chứa liệu hướng dẫn người học cài đặt và học môn Lập trình hướng đối tượng - INT2204.
 
+## Mục lục
+
+- [oop-material](#oop-material)
+  - [Mục lục](#mục-lục)
+  - [Để học môn này cần cài đặt những gì?](#để-học-môn-này-cần-cài-đặt-những-gì)
+  - [Nên cài đặt phần mềm như thế nào?](#nên-cài-đặt-phần-mềm-như-thế-nào)
+    - [JDK Development Kit](#jdk-development-kit)
+    - [IntelliJ IDEA _Community Edition_](#intellij-idea-community-edition)
+    - [Git](#git)
+
 ## Để học môn này cần cài đặt những gì?
 
 Sau đây là một số phần mềm cần thiết để người học có thể học môn này. Tất nhiên sẽ có những phần mềm tương tự với các phần mềm sau, việc sử dụng phần mềm nào là tùy vào người học. Nếu người học chưa biết sử dụng phần mềm nào thì hãy sử dụng các phần mềm được liệt kê. Lưu ý là các phần mềm dưới đây sẽ được sử dụng trên hệ điều hành Windows, nếu người học sử dụng hệ điều hành khác thì hãy tải và cài đặt phiên bản tương tự dành cho hệ điều hành mà người học sử dụng.
