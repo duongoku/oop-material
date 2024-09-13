@@ -1,16 +1,18 @@
 # oop-material
 
+https://github.com/duongoku/oop-material
+
 Đây là repo chứa liệu hướng dẫn người học cài đặt và học môn Lập trình hướng đối tượng - INT2204.
 
 ## Mục lục
 
-- [oop-material](#oop-material)
-  - [Mục lục](#mục-lục)
-  - [Để học môn này cần cài đặt những gì?](#để-học-môn-này-cần-cài-đặt-những-gì)
-  - [Nên cài đặt phần mềm như thế nào?](#nên-cài-đặt-phần-mềm-như-thế-nào)
-    - [JDK Development Kit](#jdk-development-kit)
-    - [IntelliJ IDEA _Community Edition_](#intellij-idea-community-edition)
-    - [Git](#git)
+-   [oop-material](#oop-material)
+    -   [Mục lục](#mục-lục)
+    -   [Để học môn này cần cài đặt những gì?](#để-học-môn-này-cần-cài-đặt-những-gì)
+    -   [Nên cài đặt phần mềm như thế nào?](#nên-cài-đặt-phần-mềm-như-thế-nào)
+        -   [JDK Development Kit](#jdk-development-kit)
+        -   [IntelliJ IDEA _Community Edition_](#intellij-idea-community-edition)
+        -   [Git](#git)
 
 ## Để học môn này cần cài đặt những gì?
 
@@ -36,7 +38,7 @@ Sau khi đã cài thành công thì người học cần thêm phần mềm vào
 
 ![](images/env_windows.png)
 
-Người học tiến hành kích đúp chuột vào dòng có chứa _Path_ ở cột _Variable_ tại ô _User variables for ..._ hoặc _System variables_ để chỉnh sửa. Sau đó người học kích vào _New_ để thêm một đường dẫn mới vào _Path_. Sau đó người học dán đường dẫn đến thư mục _bin_ của phần mềm vào rồi nhấn _OK_ ở các cửa sổ để lưu cài đặt và đóng cửa sổ là hoàn thành.
+Người học tiến hành kích đúp chuột vào dòng có chứa _Path_ ở cột _Variable_ tại ô _User variables for ..._ hoặc _System variables_ để chỉnh sửa. Sau đó người học kích vào _New_ để thêm một đường dẫn mới vào _Path_. Sau đó người học dán đường dẫn đến thư mục _bin_ của phần mềm vào rồi nhấn _OK_ ở các cửa sổ để lưu cài đặt và đóng cửa sổ là hoàn thành. Địa chỉ mặc định khi cài đặt thường sẽ là `C:\Program Files\Java\jdk-21\bin`.
 
 ![](images/edit_env_windows.png)
 
