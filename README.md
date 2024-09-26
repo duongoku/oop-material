@@ -6,14 +6,15 @@ https://github.com/duongoku/oop-material
 
 ## Mục lục
 
--   [oop-material](#oop-material)
-    -   [Mục lục](#mục-lục)
-    -   [Để học môn này cần cài đặt những gì?](#để-học-môn-này-cần-cài-đặt-những-gì)
-    -   [Nên cài đặt phần mềm như thế nào?](#nên-cài-đặt-phần-mềm-như-thế-nào)
-        -   [JDK Development Kit](#jdk-development-kit)
-        -   [IntelliJ IDEA _Community Edition_](#intellij-idea-community-edition)
-        -   [Git](#git)
-    -   [Tự học Java như thế nào?](#tự-học-java-như-thế-nào)
+- [oop-material](#oop-material)
+  - [Mục lục](#mục-lục)
+  - [Để học môn này cần cài đặt những gì?](#để-học-môn-này-cần-cài-đặt-những-gì)
+  - [Nên cài đặt phần mềm như thế nào?](#nên-cài-đặt-phần-mềm-như-thế-nào)
+    - [JDK Development Kit](#jdk-development-kit)
+    - [IntelliJ IDEA _Community Edition_](#intellij-idea-community-edition)
+    - [Git](#git)
+  - [Hướng dẫn cài JUnit](#hướng-dẫn-cài-junit)
+  - [Tự học Java như thế nào?](#tự-học-java-như-thế-nào)
 
 ## Để học môn này cần cài đặt những gì?
 
@@ -65,6 +66,20 @@ Việc cài đặt Git cũng tương tự như IntelliJ IDEA, chỉ cần chọn
 Để kiểm tra xem người học đã cài đặt đúng và đủ hay chưa thì người học có thể mở cửa sổ _cmd_ lên (bằng cách dùng tổ hợp phím _Windows + R_ &rarr; nhập `cmd` &rarr; _OK_) và gõ vào câu lệnh `git --version` để kiểm tra. Nếu kết quả hiện lên như hình dưới là đã thành công.
 
 ![](images/git_cmd.png)
+
+## Hướng dẫn cài JUnit
+
+Sau khi đã tạo project mới trong IntellJ với maven, người học tiến hành mở file `pom.xml` và trỏ chuột vào đoạn text `<dependencies>`. Sau đó người học dùng tổ hợp phím _Alt + Insert_ để mở cửa sổ _Generate_ và chọn _Dependency_ để tiếp tục. Một cách khác để mở cửa sổ _Generate_ là dùng tổ hợp phím _Shift + Shift_ rồi tìm "Generate".
+
+![](images/maven_add_dep.png)
+
+Ở cửa sổ tìm kiếm, người học tiến hành tìm `org.junit.jupiter:junit-jupiter` và thêm thư viện này. Người học có thể thêm các thư viện khác với cách tương tự.
+
+![](images/maven_find_dep.png)
+
+Sau khi đã thêm thư viện, người học cần phải lưu lại file `pom.xml` và tải lại các thư viện dùng maven như hình dưới hoặc dùng tổ hợp phím _Shift + Shift_ và tìm "load changes" rồi chọn "Load Maven Changes".
+
+![](images/maven_reload.png)
 
 ## Tự học Java như thế nào?
 
