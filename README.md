@@ -73,7 +73,7 @@ Sau khi đã tạo project mới trong IntellJ với maven, người học tiế
 
 ![](images/maven_add_dep.png)
 
-Ở cửa sổ tìm kiếm, người học tiến hành tìm `org.junit.jupiter:junit-jupiter` và thêm thư viện này. Người học có thể thêm các thư viện khác với cách tương tự. Nếu không tìm thấy junit ở nước này thì người học gõ trực tiếp đoạn code sau vào giữa hai tag `<dependencies>` và `</dependencies>` trong file `pom.xml` (đối với Java 21 thì có thể chọn JUnit phiên bản 5.8 như trong đoạn code, người học có thể tùy vào từng trường hợp để chọn phiên bản tương ứng):
+Ở cửa sổ tìm kiếm, người học tiến hành tìm `org.junit.jupiter:junit-jupiter` và thêm thư viện này. Người học có thể thêm các thư viện khác với cách tương tự. Nếu không tìm thấy junit ở bước này thì người học gõ trực tiếp đoạn code sau vào giữa hai tag `<dependencies>` và `</dependencies>` trong file `pom.xml` (đối với Java 21 thì có thể chọn JUnit phiên bản 5.8 như trong đoạn code, người học có thể tùy vào từng trường hợp để chọn phiên bản tương ứng):
 
 ```
 <dependency>
