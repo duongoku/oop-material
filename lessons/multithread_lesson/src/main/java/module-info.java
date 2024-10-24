@@ -1,0 +1,7 @@
+module uet.multithread_lesson {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+    opens uet.multithread_lesson to javafx.fxml;
+    exports uet.multithread_lesson;
+}
