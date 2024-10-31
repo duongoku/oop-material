@@ -6,15 +6,15 @@ https://github.com/duongoku/oop-material
 
 ## Mục lục
 
-- [oop-material](#oop-material)
-  - [Mục lục](#mục-lục)
-  - [Để học môn này cần cài đặt những gì?](#để-học-môn-này-cần-cài-đặt-những-gì)
-  - [Nên cài đặt phần mềm như thế nào?](#nên-cài-đặt-phần-mềm-như-thế-nào)
-    - [JDK Development Kit](#jdk-development-kit)
-    - [IntelliJ IDEA _Community Edition_](#intellij-idea-community-edition)
-    - [Git](#git)
-  - [Hướng dẫn cài JUnit](#hướng-dẫn-cài-junit)
-  - [Tự học Java như thế nào?](#tự-học-java-như-thế-nào)
+-   [oop-material](#oop-material)
+    -   [Mục lục](#mục-lục)
+    -   [Để học môn này cần cài đặt những gì?](#để-học-môn-này-cần-cài-đặt-những-gì)
+    -   [Nên cài đặt phần mềm như thế nào?](#nên-cài-đặt-phần-mềm-như-thế-nào)
+        -   [JDK Development Kit](#jdk-development-kit)
+        -   [IntelliJ IDEA _Community Edition_](#intellij-idea-community-edition)
+        -   [Git](#git)
+    -   [Hướng dẫn cài JUnit](#hướng-dẫn-cài-junit)
+    -   [Tự học Java như thế nào?](#tự-học-java-như-thế-nào)
 
 ## Để học môn này cần cài đặt những gì?
 
@@ -85,7 +85,11 @@ Sau khi đã tạo project mới trong IntellJ với maven, người học tiế
 
 ![](images/maven_find_dep.png)
 
-.Sau khi đã thêm thư viện, người học cần phải lưu lại file `pom.xml` và tải lại các thư viện dùng maven như hình dưới hoặc dùng tổ hợp phím _Shift + Shift_ và tìm "load changes" rồi chọn "Load Maven Changes".
+Trong trường hợp không tìm được thư viện, người học có thể tiến hành update lại các repo trong maven bằng cách vào _Settings -> Build, Execution, Deployment -> Maven -> Repositories_ hoặc dùng tổ hợp phím _Shift + Shift_ rồi tìm "Repositories". Sau khi đã vào cửa sổ này thì người học tiến hành chọn repo online của maven rồi nhấn _Update_ như hình dưới. Sau khi nhấn _Update_, người học sẽ thấy trạng thái của quá trình cập nhật ở thanh trạng thái dưới cùng trong cửa sổ. Sau khi đã cập nhật xong thi người học có thể tìm được thư viện và thêm thư viện nếu thư viện đó có trên trang web sau: [https://mvnrepository.com/repos/central](https://mvnrepository.com/repos/central).
+
+![](images/maven_update.png)
+
+Sau khi đã thêm thư viện, người học cần phải lưu lại file `pom.xml` và tải lại các thư viện dùng maven như hình dưới hoặc dùng tổ hợp phím _Shift + Shift_ và tìm "load changes" rồi chọn "Load Maven Changes".
 
 ![](images/maven_reload.png)
 
