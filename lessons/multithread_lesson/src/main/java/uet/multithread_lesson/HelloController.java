@@ -38,7 +38,6 @@ public class HelloController {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        count.incrementAndGet();
         return "Data from API: Welcome to JavaFX Application!\nCount: " + count;
     }
 }
