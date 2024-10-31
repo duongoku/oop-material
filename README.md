@@ -106,3 +106,4 @@ Sau đó người học có thể hỏi bất cứ câu hỏi gì và trả lờ
 
 -   JSON: [https://www.json.org/json-vi.html](https://www.json.org/json-vi.html)
 -   HTTP: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+-   API: [https://aws.amazon.com/vi/what-is/api/](https://aws.amazon.com/vi/what-is/api/)
